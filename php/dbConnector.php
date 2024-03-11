@@ -1,8 +1,8 @@
 <?php
-define('DB_HOST', 'localhost'); // Адрес
-define('DB_USER', 'root');      // Имя пользователя
-define('DB_PASSWORD', '');      // Пароль
-define('DB_NAME', 'sports_grounds'); // Имя БД
+define('DB_HOST', 'std-mysql.ist.mospolytech.ru'); // Адрес
+define('DB_USER', 'std_2278_playground');      // Имя пользователя
+define('DB_PASSWORD', '12345678');      // Пароль
+define('DB_NAME', 'std_2278_playground'); // Имя БД
 
 // Подключение к базе данных
 $mysql = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
