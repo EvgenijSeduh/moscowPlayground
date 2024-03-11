@@ -49,8 +49,7 @@ footer a{
 }
 
 .pagination__item--active {
-  font-weight: 800;
-  color: rgb(8, 228, 11);
+  text-decoration: underline;
 }
 /*-------------------------------------------------------*/
 #map {
